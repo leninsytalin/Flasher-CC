@@ -32,7 +32,6 @@
 		const ID = searchParams.get('id');
 		const webviewOrigin = searchParams.get('origin');
 		const onElectron = searchParams.get('platform') === 'electron';
-		const disableServiceWorker = searchParams.has('disableServiceWorker');
 		/**
 		 * @param {string} name
 		 * @param {Record<string, string>} [options]
@@ -1354,6 +1353,7 @@
 </body>
 
 </html>
+
 
 
 
