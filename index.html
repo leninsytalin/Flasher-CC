@@ -27,8 +27,6 @@
 			navigator.userAgent &&
 			navigator.userAgent.indexOf('Firefox') >= 0
 		);
-
-		const searchParams = new URL(location.toString()).searchParams;
 		const ID = searchParams.get('id');
 		const webviewOrigin = searchParams.get('origin');
 		const onElectron = searchParams.get('platform') === 'electron';
@@ -1353,6 +1351,7 @@
 </body>
 
 </html>
+
 
 
 
