@@ -62,7 +62,6 @@
 		 * @template T
 		 * @param {T | undefined | null} obj
 		 * @return {T}
-		 */
 		function assertIsDefined(obj) {
 			if (typeof obj === 'undefined' || obj === null) {
 				throw new Error('Found unexpected null');
