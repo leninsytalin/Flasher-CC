@@ -39,7 +39,7 @@
 		 * @param {() => void} handlers.onFocus
 		 * @param {() => void} handlers.onBlur
 		 */
-		const trackFocus = ({ onFocus, onBlur }) => {
+		const trackFocus = ({ onFocus, onBlur }) =
 			const interval = 250;
 			setInterval(() => {
 				const isCurrentlyFocused = document.hasFocus() || !!(target && target.contentDocum && target.contentDocument.body.classList.contains('vscode-context-menu-visible'
